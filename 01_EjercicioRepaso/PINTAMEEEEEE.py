@@ -19,7 +19,7 @@ def PintarTrianguloInvertido(ancho: int, caracter: str) -> None:
         cont -= 1
 
 print("Elija lo que desea pintar ")
-print("1.Cuadrado, 2.Triangulo")
+print("1.Cuadrado, 2.Triangulo, 3.Triangulo Invertido")
 
 opcion:int = int(input())
 
@@ -32,6 +32,12 @@ if(opcion == 1):
     caracter:str=str(input())
     PintarCuadrado(ancho,alto,caracter)
 elif(opcion==2):
+    print("Ingrese el ancho del cuadrado")
+    ancho:int = int(input())
+    print("Ingrese su caracter")
+    caracter:str=str(input())
+    PintarTriangulo(ancho,caracter)
+elif(opcion==3):
     print("Ingrese el ancho del cuadrado")
     ancho:int = int(input())
     print("Ingrese su caracter")
