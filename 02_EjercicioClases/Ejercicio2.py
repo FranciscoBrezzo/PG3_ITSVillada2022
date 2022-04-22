@@ -13,13 +13,13 @@ class Alumno:
         else:
             print(self.nombre ,"no aprobo con" , self.nota)
 
-p1 = Alumno("Pepe",7)
-p2 = Alumno("Juan",4)
+a1 = Alumno("Pepe",7)
+a2 = Alumno("Juan",4)
 
-p1.imprimir()
-p1.calificar()
+a1.imprimir()
+a1.calificar()
 
-p2.imprimir()
-p2.calificar()
+a2.imprimir()
+a2.calificar()
 
 
