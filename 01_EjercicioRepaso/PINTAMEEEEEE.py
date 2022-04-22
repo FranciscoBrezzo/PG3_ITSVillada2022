@@ -42,7 +42,7 @@ elif(opcion==3):
     ancho:int = int(input())
     print("Ingrese su caracter")
     caracter:str=str(input())
-    PintarTriangulo(ancho,caracter)
+    PintarTrianguloInvertido(ancho,caracter)
 
 
 
