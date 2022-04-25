@@ -24,9 +24,6 @@ class Empleado(Persona):
             print("No debe pagar impuestos")
 
 p1 = Persona()
-p1.imprimir
-
-print("            ")
 
 e1 = Empleado()
 e1.imprimir()
