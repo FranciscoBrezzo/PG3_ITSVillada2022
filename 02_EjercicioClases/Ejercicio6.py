@@ -8,11 +8,9 @@ class Familia:
             hijo = input("Ingrese el nombre de los hijos:")
             self.listH.append(hijo)
 
-
     def __str__(self) -> str:
         return f"El nombre del padre es: {self.nomP}, el nombre de la madre es: {self.nomM}, y los nombres de los hijos son: {self.listH}"
 
-        
 
 f1 = Familia()
 print(f1)

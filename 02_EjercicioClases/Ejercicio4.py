@@ -1,8 +1,7 @@
 class Operacion:
-
     def __init__(self):
-        self.num1=int(input("Ingrese primer numero: "))
-        self.num2=int(input("Ingrese segundo numero: "))
+        self.num1 = int(input("Ingrese primer numero: "))
+        self.num2 = int(input("Ingrese segundo numero: "))
         self.Suma()
         self.Resta()
         self.Multiplicacion()
@@ -26,9 +25,3 @@ class Operacion:
 
 
 o1 = Operacion()
-
-
-
-    
-
-    
